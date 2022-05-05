@@ -1,6 +1,8 @@
 # ultra-minimal-theme
 
-Jekyll is a great tool, but it's themes are clunky, ugly and too heavy. This is a WIP theme that will be stripped of everything but the bare bones to create text-based blog posts. Right now, I am adding the CSS in via a link in the `head.html` file. Some more CSS tweaking is needed to make it work for as little or as many styles as you want to incorporate.
+Jekyll is a great tool, but it's themes are clunky, ugly and too heavy.
+
+This is a WIP theme that strips of everything but the bare bones to create text-based blog posts. Right now, I am adding the CSS in via a link in the `head.html` file. Some more CSS tweaking is needed to make it work for as little or as many styles as you want to incorporate.
 
 ## Installation
 
