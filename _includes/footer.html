@@ -1,0 +1,29 @@
+<footer>
+  <data href="{{ "/" | relative_url }}"></data>
+
+  <div>
+
+    <div>
+      <div >
+
+      {%- if site.author %}
+        <ul >
+          {% if site.author.name -%}
+            <li>{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
+      </div>
+      <div>
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</footer>
