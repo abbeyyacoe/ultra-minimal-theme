@@ -2,7 +2,7 @@
 
 Jekyll is a great tool, but it's themes are clunky, ugly and too heavy.
 
-This is a WIP theme that strips of everything but the bare bones to create text-based blog posts. Right now, I am adding the CSS in via a link in the `head.html` file. Some more CSS tweaking is needed to make it work for as little or as many styles as you want to incorporate.
+Ultra Minimal Theme strips of everything but the bare bones to create text-based blog posts. Right now, I am adding the CSS in via a link in the `head.html` file. Some more CSS tweaking is needed to make it work for as little or as many styles as you want to incorporate.
 
 ## Customizing CSS
 There are two ways to customize CSS. Either insert your own CSS via the `custom_styles.scss` file in the `_sass` folder, or add your own style sheet via `_includes/head.html`. Currently this site is styled using [Slightly Better CSS](https://github.com/printerscanner/slightly-better-css), a lightweight CSS template.
@@ -28,6 +28,8 @@ And then execute:
 Or install it yourself as:
 
     $ gem install ultra-minimal-theme
+
+Find version information on this theme on [RubyGems](https://rubygems.org/gems/ultra-minimal-theme/versions/0.1.0).
 
 ## Usage
 
