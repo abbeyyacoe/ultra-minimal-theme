@@ -1,13 +1,8 @@
 <footer>
   <data href="{{ "/" | relative_url }}"></data>
 
-  <div>
-
-    <div>
-      <div >
-
       {%- if site.author %}
-        <ul >
+        <ul>
           {% if site.author.name -%}
             <li>{{ site.author.name | escape }}</li>
           {% endif -%}
@@ -16,14 +11,6 @@
           {%- endif %}
         </ul>
       {%- endif %}
-      </div>
-      <div>
         <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-
-
-  </div>
 
 </footer>
