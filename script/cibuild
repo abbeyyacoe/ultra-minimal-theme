@@ -12,4 +12,4 @@ else
   exit 1
 fi
 
-gem build ultra-minimal-theme.gemspec
+gem build slightly-better-theme.gemspec
